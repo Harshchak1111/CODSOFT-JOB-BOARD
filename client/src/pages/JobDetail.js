@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import API from '../api';
 
 const JobDetail = () => {
-  const { id } = useParams(); // Get job ID from URL
+  const { id } = useParams(); 
   const [job, setJob] = useState(null);
   const [resume, setResume] = useState(null);
   const [message, setMessage] = useState('');
